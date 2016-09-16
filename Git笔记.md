@@ -151,7 +151,7 @@
 	git pull origin
 将下载并合并origin/feature中的内容至本地
 
-	git push origin
+	git push origin master
 推送至远程
 
 ###reset

@@ -162,12 +162,12 @@
 
 reset有三种模式：mixed，soft，hard
 
-	git reset --soft HEAD~5
+	git reset --soft HEAD ~5
 	git status
 	git commit -m "five new changes"
 最新5条commit合为1个commit
 
-	git reset --hard HEAD~5
+	git reset --hard HEAD ~5
 丢弃掉最近5次提交
 
 	git checkout 哈希值	file

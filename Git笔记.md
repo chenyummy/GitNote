@@ -148,7 +148,7 @@
 下载远程仓库
 
 	git checkout feature
-	git pull origin
+	git pull origin master
 将下载并合并origin/feature中的内容至本地
 
 	git push origin master
